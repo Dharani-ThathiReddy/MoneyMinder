@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 60px 20px;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.home-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  padding: 30px;
+  border-radius: 20px;
+  width: 250px;
+  transition: all 0.3s ease;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.feature-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.35);
+}
+
+.home-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.home-button {
+  background: white;
+  color: #3b82f6;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.home-button:hover {
+  background: #e5e7eb;
+}
+
+.login-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.login-btn:hover {
+  background: #1e40af;
+}
